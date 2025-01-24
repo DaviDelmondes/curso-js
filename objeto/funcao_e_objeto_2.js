@@ -1,9 +1,9 @@
 function criarData(dia, mes, ano){
     return {
-        dia: 5,
-        mes: 4,
-        ano: 2023,
-        formatar: function(){
+        dia,
+        mes,
+        ano,
+        formatar(){
             return `${this.dia}/${this.mes}/${this.ano}`
         }
     }
